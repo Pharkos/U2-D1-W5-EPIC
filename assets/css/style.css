@@ -209,3 +209,56 @@ footer {
 footer a {
   color: fuchsia;
 }
+
+/* Medium Vesrion */
+@media screen and (min-width: 768px) {
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
+  #newsletterP {
+    font-size: 20px;
+  }
+
+  #user_email {
+    height: 40px;
+    width: 520px;
+  }
+
+  form button {
+    height: 40px;
+    width: 100px;
+  }
+}
+
+/* Desktop Version */
+@media screen and (min-width: 1024px) {
+  header {
+    text-align: unset;
+    padding: 0;
+  }
+
+  header div img {
+    margin: 0;
+  }
+
+  header p {
+    display: inline;
+    margin-right: 260px;
+  }
+
+  header ul {
+    display: inline;
+  }
+
+  header nav {
+    display: inline;
+  }
+
+  header div {
+    display: inline;
+  }
+}
