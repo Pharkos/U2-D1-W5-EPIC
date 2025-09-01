@@ -236,6 +236,9 @@ footer a {
 
 /* Desktop Version */
 @media screen and (min-width: 1024px) {
+  #badge {
+    width: 6%;
+  }
   header {
     text-align: unset;
     padding: 0;
@@ -260,5 +263,10 @@ footer a {
 
   header div {
     display: inline;
+  }
+
+  aside div {
+    width: 33%;
+    display: inline-block;
   }
 }
