@@ -269,4 +269,29 @@ footer a {
     width: 33%;
     display: inline-block;
   }
+
+  iframe {
+    width: 49%;
+    height: 210px;
+    margin-bottom: -1.6em;
+  }
+
+  #newsletterSection {
+    width: 50%;
+    display: inline-block;
+    border-radius: 20px;
+  }
+  #user_email {
+    height: 30px;
+    width: 240px;
+  }
+
+  section button {
+    height: 30px;
+    width: 100px;
+  }
+
+  section h2 {
+    margin-bottom: 4rem;
+  }
 }
